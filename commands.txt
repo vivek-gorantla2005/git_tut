@@ -1,0 +1,11 @@
+version : git --version
+
+git config --global user.name 'vivek'  
+git config --global user.email '23eg105j66@anurag.edu.in'   
+
+git status (status of files tracked or untracked)
+
+git add <filename>
+git add .
+
+
