@@ -3,6 +3,8 @@ version : git --version
 git config --global user.name 'vivek'  
 git config --global user.email '23eg105j66@anurag.edu.in'   
 
+git branch -M main  (change to main branch)
+
 git status (status of files tracked or untracked)
 
 git add <filename>
@@ -10,5 +12,28 @@ git add .
 
 git commit -m <message>  (commit the changes)
 
-git log
+git log     (get log of all commits )
+
+git checkout <commit id>  (move back to previous commit state)
+git checkout main  (get back to main state)
+
+
+//create a git repository
+//then in local system folder terminal link it wih global git repository
+git remote add origin <repo path url>
+
+git push origin -u main (push code to main branch)
+
+
+//branches in git 
+//create a git branch
+git branch <name>
+//switch to new branch
+git checkout feature1
+
+//use a flag to create a new branch and switch to new branch immediately
+git checkout -b <name>
+
+//create a new branch with a start branch 
+git branch <new_branch> <soure_branch>
 
